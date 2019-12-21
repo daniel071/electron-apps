@@ -20,6 +20,5 @@
   },
   "dependencies": {
     "custom-electron-titlebar": "^3.1.0",
-    "electron-builder": "^21.2.0"
   }
 }
