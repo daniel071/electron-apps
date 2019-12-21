@@ -1,4 +1,4 @@
-- name: Electron Builder Action
+  name: Electron Builder Action
   uses: samuelmeuli/action-electron-builder@v1.1.0
   with:
     # GitHub authentication token
