@@ -5,16 +5,13 @@
   "main": "main.js",
   "scripts": {
     "start": "electron ."
-    "postinstall": "electron-builder install-app-deps",
-    "build": "electron-builder --mac --windows --linux",
-    "release": "electron-builder --mac --windows --linux --publish always"
   },
   "repository": "https://github.com/daniel071/electron-apps",
   "keywords": [
     "Electron",
     "Website",
     "Ancient",
-    "Rome",
+    "Rome"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
@@ -22,6 +19,7 @@
     "electron": "^7.1.6"
   },
   "dependencies": {
-    "custom-electron-titlebar": "^3.1.0"
+    "custom-electron-titlebar": "^3.1.0",
+    "electron-builder": "^21.2.0"
   }
 }
