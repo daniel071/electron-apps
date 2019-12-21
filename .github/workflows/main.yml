@@ -1,8 +1,9 @@
   name: Electron Builder Action
   uses: samuelmeuli/action-electron-builder@v1.1.0
+  on: push
   with:
     # GitHub authentication token
-    github_token: 
+    github_token:
     # Base64-encoded code signing certificate for macOS
     mac_certs: # optional
     # Password for decrypting `mac_certs`
